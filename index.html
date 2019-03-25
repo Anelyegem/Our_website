@@ -18,17 +18,19 @@
   <link rel="stylesheet"  href="styles/css.css">
 </head>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Pretty Little Smarties</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Mathematics</a></li>
+<nav  class="navbar navbar-expand-lg navbar-fixed-top navbar-default">
+
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"><img src="images/logo3.jpeg" height="42"><p>Pretty Little Smarties</p></a>
+		<!--<button type="button" class="navbar-toggle" data-toggle="collapse" aria-controls="myNavbar" aria-expanded="false" data-target="#myNavbar">-->
+	</div>
+	<div class="colllapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#Home">Home</a></li>
+			<li><a href="#About">About us</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Subjects <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="indexmath.html" >Mathematics</a></li>
           <li><a href="#">Physics</a></li>
           <li><a href="#">Chemistry</a></li>
           <li><a href="#">Biology</a></li>
@@ -53,8 +55,9 @@
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a id="signup_button" href="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			<li><a id="login_button" href="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	
     </ul>
   </div>
 </nav>
