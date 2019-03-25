@@ -11,6 +11,7 @@ div#photo {
   background-size: cover;
 }
 
+
 /* Container holding the image and the text */
 div#container {
   position: relative;
@@ -85,10 +86,6 @@ div#About{
   padding-top: 50px;
 }
 
-div#sign-log{
-  padding-top: 160px;
-}
-
 div#mathlinks{
   padding-left:130px;
 font-size:120%;
@@ -148,8 +145,6 @@ div#carousel3{
   font-size: 140%;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 }
-
-
 
 #footer_outer {
   background-color:#333;
