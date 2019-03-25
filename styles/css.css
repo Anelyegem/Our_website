@@ -164,3 +164,7 @@ p#textaboutus1{
 p#textaboutus2{
   font-size: 140%;
 }
+button#instabutton{
+  display:block;
+  margin: auto;
+}
