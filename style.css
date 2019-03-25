@@ -10,3 +10,132 @@ div#photo {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Container holding the image and the text */
+div#container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+div#bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+div#top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+div#top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+div#bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+div#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#About img {
+  display: text;
+}
+
+#About .pictures_container {
+  text-align:center;
+  display: block;
+  padding: 15pt 0 15pt 0;
+}
+
+#myCarousel_outer {
+  padding: 0;
+}
+
+.carousel-caption {
+  top: 40%;
+  bottom: 0;
+  height: 20%;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.4)
+
+
+}
+#
+
+div#About{
+  padding-top: 50px;
+}
+
+div#sign-log{
+  padding-top: 160px;
+}
+
+div#mathlinks{
+  padding-left:130px;
+font-size:120%;
+}
+
+h1#mathtitle{
+
+  font-weight: bold;
+  font-family:cursive;
+
+}
+
+.navbar-brand{
+  padding: 0;
+  line-height: 23px;
+}
+.navbar-brand img {
+  display: block;
+  float: left;
+  margin: 0;
+
+}
+html {
+  scroll-behaviour: smooth;
+}
+
+body {
+  padding-top: 40px;
+}
+
+#About {
+  padding-top:40px;
+}
+
+#login_button {
+  margin-right: 10pt;
+}
+
+div#carousel1{
+  font-size: 140%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div#carousel2{
+  font-size: 140%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div#carousel3{
+  font-size: 140%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
