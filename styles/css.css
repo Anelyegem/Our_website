@@ -85,7 +85,9 @@ div#About{
   padding-top: 50px;
 }
 
-
+div#sign-log{
+  padding-top: 160px;
+}
 
 div#mathlinks{
   padding-left:130px;
@@ -125,6 +127,14 @@ body {
   margin-right: 10pt;
 }
 
+#signup, #login{
+  position:fixed;
+  z-index:10;
+  top:40px;
+  right:0px;
+  background:white;
+  padding:40px;
+}
 
 div#carousel1{
   font-size: 140%;
